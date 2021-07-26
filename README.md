@@ -1,1 +1,1 @@
-# ResNet18-STL10-Classification
+# Classification of dataset STL-10 using pretrained Resnet18 in PyTorch
