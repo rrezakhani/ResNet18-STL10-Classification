@@ -18,5 +18,7 @@ Two note books are available to compare the effect of data augmentation. In "Res
 
 Comparing the curved of accuracy and loss versus number of epochs, it is confirmed that the data augmentation has resolved overfitting, which is clear in the model with no image transforms. 
 
+### No data augmentation (no image transform)
+<img src="https://github.com/rrezakhani/ResNet18-STL10-Classification/tree/main/curves/NoAug-accu.png" width="480"> <img src="https://github.com/rrezakhani/ResNet18-STL10-Classification/tree/main/curves/NoAug-loss.png" width="350">
 
-https://github.com/rrezakhani/ResNet18-STL10-Classification/tree/main/curves
+
