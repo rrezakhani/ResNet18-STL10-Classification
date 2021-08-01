@@ -22,3 +22,7 @@ Comparing the curved of accuracy and loss versus number of epochs, it is confirm
 ![plot](./curves/NoAug-accu.png)
 ![plot](./curves/NoAug-loss.png)
 
+### With data augmentation (with image transform)
+![plot](./curves/Aug-accu.png)
+![plot](./curves/Aug-loss.png)
+
