@@ -20,5 +20,5 @@ Comparing the curved of accuracy and loss versus number of epochs, it is confirm
 
 ### No data augmentation (no image transform)
 ![plot](./curves/NoAug-accu.png)
-
+![plot](./curves/NoAug-loss.png)
 
