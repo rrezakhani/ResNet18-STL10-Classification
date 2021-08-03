@@ -14,7 +14,7 @@ To download the dataset, use the "stl10_input.py" script on https://github.com/m
 Pretrained Resnet18 is used here, and only its last dense layer is adjusted to the possible 10 classes of STL-10 dataset.
 
 ## Effect of data augmentation
-Two note books are available to compare the effect of data augmentation. In "ResNet18-STL10.ipynb", several transforms are combined to apply on the training set in order to create additional images to train deep neural network. This will lead to greater number images for model training, which is expected to reduce overfitting.
+Two note books are available to compare the effect of data augmentation. In "ResNet18-STL10.ipynb", several transforms are combined to apply on the training set in order to create additional images to train deep neural network. This will lead to greater number images for model training, which is expected to reduce overfitting. In "ResNet18-STL10-NoDataAugmentation.ipynb", data augmentation was not applied.
 
 Comparing the curved of accuracy and loss versus number of epochs, it is confirmed that the data augmentation has resolved overfitting, which is clear in the model with no image transforms. 
 
